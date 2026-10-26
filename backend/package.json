@@ -32,7 +32,7 @@
     "db:memory:stop": "docker stop anotea-db-memory;docker rm anotea-db-memory"
   },
   "dependencies": {
-    "@faker-js/faker": "10.1.0",
+    "@faker-js/faker": "10.6.0",
     "@hapi/boom": "10.0.1",
     "@slack/webhook": "^7.0.9",
     "bcryptjs": "3.0.3",
@@ -41,13 +41,13 @@
     "bunyan-prettystream": "0.1.3",
     "byline": "5.0.0",
     "commander": "11.1.0",
-    "compression": "1.8.1",
+    "compression": "1.8.2",
     "config": "3.3.12",
-    "csv-parse": "6.1.0",
+    "csv-parse": "6.2.1",
     "deep-object-diff": "^1.1.9",
     "ejs": "3.1.10",
     "emoji-strip": "1.0.1",
-    "express": "5.2.1",
+    "express": "^5.3.0",
     "express-rate-limit": "^8.5.2",
     "fluent-logger": "3.4.1",
     "iconv-lite": "0.6.3",
@@ -63,7 +63,7 @@
     "mongodb": "6.21.0",
     "node-fetch": "3.3.2",
     "openid-client": "5.7.1",
-    "sanitize-html": "2.17.0",
+    "sanitize-html": "^2.18.1",
     "swagger-ui-express": "5.0.1",
     "uglify-js": "3.19.3",
     "unbzip2-stream": "1.4.3",
@@ -73,14 +73,14 @@
     "yamljs": "0.3.0"
   },
   "devDependencies": {
-    "mocha": "11.7.6",
-    "nodemon": "3.1.14",
-    "nyc": "18.0.0",
-    "supertest": "7.2.2",
+    "mocha": "^11.7.6",
+    "nodemon": "^3.1.14",
+    "nyc": "^18.0.0",
+    "supertest": "^7.2.2",
     "wait-until": "0.0.2"
   },
   "engines": {
-    "node": ">= 24.12.0",
+    "node": ">= 24.22.1",
     "npm": ">= 10.8.2",
     "pnpm": ">= 10.0.0"
   }
